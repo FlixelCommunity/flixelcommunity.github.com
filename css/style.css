@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+small {
+	font-size: 10px;
+}
+
 /* FONTS
 -------------------------------------------------- */
 @font-face {
@@ -18,7 +22,8 @@ body {
 }
 
 .marketing h2,
-.carousel-caption h1 {
+.carousel-caption h1,
+.download-btn {
 	font-family: 'nokia';
 }
 
@@ -107,7 +112,7 @@ body {
   position: absolute;
   max-width: 550px;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
   z-index: 2;
 }
 
@@ -122,7 +127,29 @@ body {
   margin-top: 10px;
 }
 
+.extra-links {
+	font-family: 'nokia';
+	font-size: 11px;
+	margin-left: 5px;
+	margin-top: 8px;
+}
 
+.extra-links a:link,
+.extra-links a:active,
+.extra-links a:hover,
+.extra-links a:visited {
+	color: #acacac;
+}
+
+.download-btn {
+	line-height: 15px !important;
+	padding: 8px 25px 3px 25px !important;
+	margin-right: 10px;
+}
+
+.carousel-caption span {
+	color: #9d9d9d;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
