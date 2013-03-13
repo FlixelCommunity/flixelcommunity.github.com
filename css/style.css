@@ -171,7 +171,7 @@ small {
 ------------------------- */
 
 .featurette-divider {
-  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+  margin: 5px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
   padding-top: 40px; /* Vertically center images part 1: add padding above and below text. */
@@ -197,6 +197,10 @@ small {
   letter-spacing: -1px;
 }
 
+.featurette .lead {
+	font-size: 18px;
+	line-height: 1.5;
+}
 
 
 /* RESPONSIVE CSS

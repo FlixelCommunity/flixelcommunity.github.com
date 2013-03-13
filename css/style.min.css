@@ -23,12 +23,13 @@ small{font-size:10px;}
 .marketing .span4{text-align:center;}
 .marketing h2{font-weight:normal;}
 .marketing .span4 p{margin-left:10px;margin-right:10px;}
-.featurette-divider{margin:50px 0;}
+.featurette-divider{margin:5px 0;}
 .featurette{padding-top:40px;overflow:hidden;}
 .featurette-image{margin-top:-90px;}
 .featurette-image.pull-left{margin-right:40px;}
 .featurette-image.pull-right{margin-left:40px;}
 .featurette-heading{font-size:50px;font-weight:300;line-height:1;letter-spacing:-1px;}
+.featurette .lead{font-size:18px;line-height:1.5;}
 @media (max-width:979px){.container.navbar-wrapper{margin-bottom:0;width:auto;}
 .navbar-inner{border-radius:0;margin:-20px 0;}
 .carousel .item{height:500px;}
