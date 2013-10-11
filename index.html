@@ -10,13 +10,7 @@
 
     <!-- Le styles -->
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="./js/html5shiv.js"></script>
-    <![endif]-->
 
     <!-- Fav and touch icons -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/ico/apple-touch-icon-144.png">
@@ -30,33 +24,6 @@
     <!-- NAVBAR
     ================================================== -->
 	
-    <div class="navbar-wrapper" style="display: none;">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">Flixel Community</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
 
     <!-- Carousel
     ================================================== -->
@@ -89,18 +56,19 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="span4">
+        <div class="col-md-4">
           <img class="img-circle" src="./img/robot3.png">
           <h2>Get started</h2>
-          <p>Check our starter guide and tutorials to quickly learn how Flixel Community works.</p>
-          <p><a class="btn btn-success" href="#">View docs &raquo;</a></p>
+          <p>Check out the starter guide and tutorials to quickly learn how Flixel Community works.</p>
+          <p><a class="btn btn-primary" href="docs.html">Get started!</a></p>
         </div><!-- /.span4 -->
-        <div class="span4">
+        <div class="col-md-4">
           <img class="img-circle" src="./img/robot.png">
           <h2>Communicate</h2>
           <p>There is a huge community waiting for you! Join the <a href="http://forums.flixel.org" target="_blank">forums</a> and get in touch.</p>
+		  <p><a class="btn btn-primary" href="#">Join the forums!</a></p>
         </div><!-- /.span4 -->
-        <div class="span4">
+        <div class="col-md-4">
           <img class="img-circle" src="./img/thing.png">
           <h2>Contribute</h2>
           <p>Flixel Community is completely open-source, uses the MIT license and is managed through <a href="http://github.com/FlixelCommunity/" target="_blank">Github</a>.</p>
@@ -108,7 +76,7 @@
 			<iframe src="http://ghbtns.com/github-btn.html?user=flixelcommunity&repo=flixel&type=watch&count=true&size=small" allowtransparency="true" frameborder="0" scrolling="0" style="border: 0; width: 100px; height: 30px; overflow: hidden; margin-top: 10px;"></iframe>
 			<iframe src="http://ghbtns.com/github-btn.html?user=flixelcommunity&repo=flixel&type=fork&count=true&size=small" allowtransparency="true" frameborder="0" scrolling="0" style="border: 0; width: 100px; height: 30px; overflow: hidden; margin-top: 10px;"></iframe>
 		  </p>
-        </div><!-- /.span4 -->
+        </div>
       </div><!-- /.row -->
 
 
@@ -118,7 +86,7 @@
 
       <div class="featurette">
         <img class="featurette-image pull-right" src="./img/cyborg_huge.png" style="padding: 50px;">
-        <h2 class="featurette-heading">A game engine. <span class="muted">Simple and powerful</span></h2>
+        <h2 class="featurette-heading">A game engine. Simple and powerful.</h2>
         <p class="lead">Flixel Community is an open source game-making library that is completely free for personal or commercial use. Written entirely in ActionScript 3 and designed to be used with free development tools, it's easy to learn, extend and customize.</p>
       </div>
 
@@ -126,7 +94,7 @@
 		  
       <div class="featurette">
         <img class="featurette-image pull-left" src="./img/monster_huge.png" style="padding: 50px;">
-        <h2 class="featurette-heading">A bunch of features. <span class="muted">New and old ones.</span></h2>
+        <h2 class="featurette-heading">A bunch of features. New and old ones.</h2>
         <p class="lead">Flixel Community includes a rich set of features: display thousands of moving objects, basic collisions between objects, group objects together for simplicity, easily generate and emit particles, create game levels using tilemaps, text display, save games, scrolling, mouse and keyboard input, math and color utilities.</p>
       </div>
 	  
@@ -134,7 +102,7 @@
 
       <div class="featurette">
         <img class="featurette-image pull-right" src="./img/robot2_huge.png" style="padding: 50px;">
-        <h2 class="featurette-heading">A community version. <span class="muted">Not a replacement.</span></h2>
+        <h2 class="featurette-heading">A community version. Not a replacement.</h2>
         <p class="lead">Flixel Community was born as a healthy fork of Flixel. It is not supposed to replace Flixel or to compete with it, but to co-exist. <a href="http://twitter.com/AdamAtomic" target="_blank">Adam</a> (Flixel's author) encouraged us to grow a community version and maintain it to our heart's content, even offering it as an alternative to Flixel.</p>
       </div>
 
